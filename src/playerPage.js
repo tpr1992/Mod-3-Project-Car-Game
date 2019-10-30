@@ -1,19 +1,10 @@
-// //
-// // let customizeCarButt = document.querySelector('#customize-car')
-// //
-// //
-// //
-// //
-// //
-// // const makeRaceTrack = () => {
-// //   return `<img src="https://i.imgur.com/DXXpRi1.png"></img>`
-// // }
-// //
-// // Select player
+// let customizeCarButt = document.querySelector('#customize-car')
 //
-//
-// // let customizeCarButt = document.querySelector('#customize-car')
-// //
+// const makeRaceTrack = () => {
+//   return `<img src="https://i.imgur.com/DXXpRi1.png"></img>`
+// }
+// Select player
+// let customizeCarButt = document.querySelector('#customize-car')
 //
 // const showUserProfile = () => {
 //   return `
@@ -39,7 +30,6 @@
 //   </div>`
 // }
 //
-//
 // const makeRaceTrack = () => {
 //   return `<img src="https://i.imgur.com/DXXpRi1.png"></img>`
 // }
@@ -49,25 +39,19 @@
 //   if (event.target.tagName === "IMG") {
 //     mainTextArea.innerHTML = ""
 //     mainTextArea.innerHTML = showUserProfile()
-//
 //   }
 //
-// // when you click customize
-//   // let customizeCarButton = document.querySelector('#customize-car')
-//   // customizeCarButton.addEventListener('click', event => {
-//   //   mainTextArea.innerHTML = ""
-//   // })
-//   //
-//   // let startRaceButt = document.querySelector('#start-race')
-//   // startRaceButt.addEventListener('click', event => {
-//   //
-//   //   if (event.target.className === "btn btn-primary") {
-//   //     mainTextArea.innerHTML = ""
-//   //     mainTextArea.innerHTML = makeRaceTrack()
-//   //
-//   //     // setupRace()
-//   //   }
-//   // })
-//
-//
+//   when you click customize
+//   let customizeCarButton = document.querySelector('#customize-car')
+//   customizeCarButton.addEventListener('click', event => {
+//     mainTextArea.innerHTML = ""
+//   })
+//   let startRaceButt = document.querySelector('#start-race')
+//   startRaceButt.addEventListener('click', event => {
+//     if (event.target.className === "btn btn-primary") {
+//       mainTextArea.innerHTML = ""
+//       mainTextArea.innerHTML = makeRaceTrack()
+//       setupRace()
+//     }
+//   })
 // })
