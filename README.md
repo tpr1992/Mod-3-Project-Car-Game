@@ -2,3 +2,5 @@
 Sprite based side-scrolling racing game. Not quite F1, but close
 
 Frontend written in JavaScript and backend written in Rails
+
+Utilizes the p5 JavaScript library
